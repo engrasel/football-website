@@ -1,0 +1,195 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+/*-------------------------
+  Common styles
+--------------------------*/
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    color:#fff;
+    font-size:64px;
+    font-weight:900;
+    line-height:1.1;
+}
+h3 {
+	font-weight: 700;
+	font-size: 28px;
+	color: #18191F;
+	line-height: 40px;
+}
+p{
+    font-size:16px;
+    font-weight:400;
+    color:#6C6C6C;
+}
+.btn{
+    background-color: #ff6347;
+    padding:10px 25px;
+    color:#fff;
+    font-size:16px;
+    font-weight:500;
+    text-decoration:none; 
+    display: table;
+
+}
+ 
+.container{
+    width:80%;
+    margin: 0 auto;
+    
+}
+
+
+/*-------------------- header area  start --------------------*/
+.header-area{
+  padding:40px 0;
+  background-color: #2D25A0;
+}
+
+.nav{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mobile-menu{
+  display: none;
+}
+.menu ul{
+  padding: 0;
+  margin: 0;
+}
+.menu ul li{
+  display:inline-block;
+  margin-right: 15px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color:#fff;
+  display:block;
+  font-weight:500;
+  font-size:16px;
+
+}
+
+.nav-btn i {
+  margin-right: 10px;
+}
+/*-------------------- header area  end --------------------**/
+
+/*-------------------- hero area  start--------------------*/
+ .banner-area{
+   background-color: #2D25A0;
+   padding:60px 0;
+ }
+ .banner-area .hero-img img:hover{
+   transform: scale(1.1);
+ }
+ .banner-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+  grid-column-gap: 100px;
+  grid-row-gap: 50px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+ .banner-text h2 {
+  text-transform: capitalize; 
+  line-height: 1.2;
+
+  margin-bottom: 54px;
+}
+
+ .hero-img img{
+   width:100%; 
+   transition: transform 1s;
+ }
+/*-------------------- hero area  end --------------------**/
+
+/*-------------------- blog section start --------------------**/
+ .blog-area{
+   padding:75px 0;
+ }
+ .blog-wrapper{
+   display:grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-column-gap:30px;
+   grid-row-gap: 30px;
+ }
+ .single-blog{
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.13);
+  padding:15px;
+ }
+ .single-blog img{
+   width: 100%;
+ }
+/*-------------------- blog section end --------------------**/
+
+/*-------------------- footer area start --------------------**/
+ .footer-area{
+   padding:60px 0;
+ }
+ .footer-logo{
+   text-align: center;
+ }
+ .footer-logo img{
+   max-width:400px;
+   text-align:center;
+ }
+ .footer-social{
+   text-align:center;
+   margin-bottom: 20px;
+ }
+ .footer-social i{
+   width:32px;
+   height:32px;
+   line-height:32px;
+   color:#969BAB;
+   background-color:#E7E7E8; 
+   border-radius: 50%;
+   margin: 0 5px;
+ }
+ p.copywrite-text{
+   text-align:center;
+   
+ }
+/*-------------------- footer area end --------------------**/
+
+/*-------------------- featured-area start --------------------*/
+.featured-area{
+  padding: 10px 0;
+}
+.featured-wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 33px;
+	grid-row-gap: 33px;
+	justify-content: center;
+	align-items: center;
+}
+.featured-content h3{
+  font-size: 48px;
+  line-height: 60px;
+  color: #0A0826;
+}
+.featured-content p{
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+.featured-area .featured-image img {
+	width: 100%;
+}
+/*--------------------   area end --------------------**/
+
+/*--------------------   area end --------------------**/
+
+/*--------------------       area start --------------------**/
+
+/*--------------------       area end --------------------**/
